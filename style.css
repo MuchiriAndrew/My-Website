@@ -1,0 +1,189 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+
+}
+
+header .header-brand {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content ;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+header nav ul li a {
+
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-cases {
+    display: none;
+}
+
+@media only screen and (min-width:1000px) {
+    header .header-brand {
+        margin: 31px 0px; /*centers the logo*/
+        text-align: left;
+        padding: 0px 20px 0px 40px;
+        border-right: 2px solid #111;
+        float: left;
+        line-height: 38px;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+    
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-cases {
+        display: block;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px ;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;/*to center it(header is 100px...minus 40 from it(from the line height and the solid borderline(38+1+1)) and divide by 2)*/
+        padding: 0px 20px;
+
+    }
+}
+
+/*INDEX*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);          /*covers 100% of the device's height*/
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    color: #fff;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+    padding-top: 20px;
+}
+
+.index-banner h1 {
+    color: #fff;
+    font-family: Cormorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+    margin: 16px 16px 0px;
+    width: calc(100%-20px);
+    height: 100px;
+    background-color: darkgray;
+}
+
+.index-links div h3 {
+    color: #111;
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px ;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+}
+
+  footer ul li a{
+    font-family: Catamaran;
+    font-size: 24px;
+    color: white;
+    line-height:40px;
+   
+}
+
+.footer-links-cases {
+    display: none;
+}
+
+.footer-socialmedia {
+    width: 50px;
+    float: right;
+
+}
+
+.footer-socialmedia img {
+    width: 100%;
+    margin-bottom: 10px;
+    
+    
+}
+
+
