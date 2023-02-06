@@ -1,5 +1,10 @@
+/* this style sheet is only responsive for smartphones and laptops/desktops */
 * {
     text-decoration: none;
+}
+
+main {
+    padding-top: 100px; /*makes the header not be layered on top of the image*/
 }
 
 body {
@@ -7,6 +12,11 @@ body {
 }
 
 header {
+    position: fixed;/*the header will be fixed and will folow us as we scroll down the website*/
+    /*top,right,left parts of the header will be touching the ends of the screen*/
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #fff;
     width: 100%;
     height: 100px;
@@ -82,7 +92,7 @@ header .header-cases {
     }
 }
 
-/*INDEX*/
+/*INDEX (main section)*/
 
 .index-banner {
     width: 100%;
@@ -123,7 +133,7 @@ header .header-cases {
 
 .index-links div {
     margin: 16px 16px 0px;
-    width: calc(100%-20px);
+    width: calc(100%-80px);
     height: 100px;
     background-color: darkgray;
 }
@@ -160,7 +170,7 @@ header .header-cases {
     }
 
     .index-links div {
-        margin: 20px 10px 0px;
+        margin: 20px 10px 0px; /*top,right,bottom,left*/
         height: 230px;
         background-color: darkgray;
         float: left;    /*puts all the links next to each other*/
@@ -183,16 +193,18 @@ header .header-cases {
 
 footer {
     width: calc(100% - 80px);
+    /* height: 230px; */
     padding: 0px 40px ;
     background-color: #111;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
     overflow: hidden;
 }
 
 footer ul {
   width: fit-content;
   float: left;
-  padding-left: 20px;
+  margin-left: 200px;
 
 }
 
@@ -220,11 +232,12 @@ footer ul li a{
     width: 50px;
     float: right;
     padding-top: 47px;
+    margin-bottom: 10px;
 }
 
 .footer-socialmedia img {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (min-width:1000px) {
