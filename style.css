@@ -338,7 +338,7 @@ footer ul li a{
     color: #fff;
     font-family: Oswald;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 1000;
     text-align: center;
     text-shadow: 2px 2px 8px #111;
     letter-spacing: 7px;
@@ -371,7 +371,7 @@ footer ul li a{
     font-size: 24px;
     line-height: 40px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .socialmedia {
