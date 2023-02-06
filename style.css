@@ -7,10 +7,6 @@ main {
     padding-top: 100px; /*makes the header not be layered on top of the image*/
 }
 
-body {
-    background-color: #ffffff;
-}
-
 /* HEADER */
 
 header {
@@ -22,10 +18,9 @@ header {
     background-color: #fff;
     width: 100%;
     height: 100px;
-
 }
 
-header .header-brand {
+.header-brand {
     font-family: Catamaran;
     font-size: 24px;
     color: #111;
@@ -56,7 +51,7 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
-header .header-cases {
+.header-cases {
     display: none;
 }
 
@@ -197,7 +192,7 @@ header .header-cases {
 
 footer {
     width: calc(100% - 80px);
-    /* height: 230px; */
+    /*height: 230px;*/
     padding: 0px 40px ;
     background-color: #111;
     margin-top: 40px;
@@ -226,6 +221,7 @@ footer ul li a{
 
 .footer-container {
     width: 100%;
+    height: 230px;
     margin: 0 auto;
 }
 
@@ -272,6 +268,13 @@ footer ul li a{
 }
 
 /* CONTACT */
+
+.wrapper2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .index-banner-contact {
     width: 100%;
     height: calc(100vh - 100px);
@@ -305,10 +308,84 @@ footer ul li a{
     margin-bottom: 50px;
 }
 
-.wrapper2 {
-    width: 100%;
-    height: 100%;
+
+
+
+/* ABOUT ME */
+
+.picturewrapper {
     margin: 0 auto;
+    width: 900px;
+    height: 607.79px;
 }
 
+.mypicture {
+    width: 100%;
+    height: 75%;  
+    background-image: url('img/me.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin-bottom: 0px;
+}
+
+.mypicture ul {
+   margin-top: 450px;
+}
+
+.mypicture h2 {
+    color: #fff;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    letter-spacing: 7px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.mypicture h3 {
+    color: #fff;
+    font-family:Cormorant Garamond;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.articlewrapper {
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    background-color: #ffffff;
+    padding-top: 2px;
+}
+
+.articlewrapper p {
+    color: #000000;
+    font-family: Catamaran;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.socialmedia {
+    margin-top: 90px;
+    margin-left: 180px;
+    width: 900px;
+    /* padding-top: 27px; */
+    /* margin-bottom: 10px; */
+    
+}
+
+.socialmedia img {
+    width: 10%;
+    margin-right: 60px;
+    
+}
 
