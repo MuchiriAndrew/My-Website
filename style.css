@@ -132,7 +132,7 @@ header .header-cases {
 }
 
 .index-links div {
-    margin: 16px 16px 0px;
+    margin: 16px 16px 20px;
     width: calc(100%-80px);
     height: 100px;
     background-color: darkgray;
@@ -196,7 +196,7 @@ footer {
     /* height: 230px; */
     padding: 0px 40px ;
     background-color: #111;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-bottom: 0px;
     overflow: hidden;
 }
@@ -248,8 +248,8 @@ footer ul li a{
     footer ul {
         width: fit-content;
         float: left;
-        padding-left: 50px;
-        padding-right: 30px;
+        padding-left: 20px;
+        /* padding-right: 30px; */
       }
 
     footer ul li p {
@@ -261,6 +261,46 @@ footer ul li a{
         text-decoration: underline;     
     }
    
+}
+
+/* CONTACT */
+.index-banner-contact {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center-contact {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner-contact p {
+    color: #fff;
+    font-family: Catamaran;
+    font-size: 24px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.index-banner-contact h1 {
+    color: #fff;
+    font-family: Oswald;
+    font-size: 30px;
+    text-align: center; 
+    line-height: 10px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 
