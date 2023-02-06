@@ -8,8 +8,10 @@ main {
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
+
+/* HEADER */
 
 header {
     position: fixed;/*the header will be fixed and will folow us as we scroll down the website*/
@@ -57,6 +59,7 @@ header nav ul li a {
 header .header-cases {
     display: none;
 }
+
 
 @media only screen and (min-width:1000px) {
     header .header-brand {
@@ -138,7 +141,7 @@ header .header-cases {
     background-color: darkgray;
 }
 
-.index-links div h3 {
+.index-links h3 {
     color: #111;
     font-family: Catamaran;
     font-size: 28px;
@@ -148,6 +151,7 @@ header .header-cases {
     text-transform: uppercase;
     line-height: 100px;
 }
+
 
 @media only screen and (min-width:1000px) {
     .wrapper {
@@ -244,6 +248,7 @@ footer ul li a{
     width: 100%;
     margin-bottom: 10px;
 }
+
 
 @media only screen and (min-width:1000px) {
     .footer-links-cases {
