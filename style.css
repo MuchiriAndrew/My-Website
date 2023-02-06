@@ -61,7 +61,7 @@ header nav ul li a {
         margin: 31px 0px; /*centers the logo*/
         text-align: left;
         padding: 0px 20px 0px 40px;
-        border-right: 2px solid #111;
+        border-right: 2px solid #111;/*for the line after the logo*/
         float: left;
         line-height: 38px;
     }
@@ -81,7 +81,7 @@ header nav ul li a {
         color: #111;
         text-transform: uppercase;
         line-height: 38px ;
-        border: 1px solid #111;
+        border: 1px solid #111;/*for the box around the link*/
         float: right;
         margin-right: 40px;
         margin-top: 30px;/*to center it(header is 100px...minus 40 from it(from the line height and the solid borderline(38+1+1)) and divide by 2)*/
